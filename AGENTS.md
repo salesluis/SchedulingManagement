@@ -19,13 +19,17 @@ Não adicione um segundo gerenciador de pacotes ou executor de tarefas sem uma j
 
 ## Estilo de código e nomenclatura
 
-Escreva código, comentários, documentação e nomes de domínio em português. Use o formatador e o linter definidos pela tecnologia e faça commits apenas com código formatado. Para JavaScript e TypeScript, prefira indentação de 2 espaços, salvo regra contrária da ferramenta.
+Escreva identificadores de código e nomes de domínio em inglês. Comentários, documentação, commits e pull requests devem permanecer em português. Use o formatador e o linter definidos pela tecnologia e faça commits apenas com código formatado. Para JavaScript e TypeScript, prefira indentação de 2 espaços, salvo regra contrária da ferramenta.
 
-Use `kebab-case` em arquivos e diretórios (`criar-agendamento.ts`), `PascalCase` em classes e tipos (`Agendamento`) e `camelCase` em funções, métodos e variáveis (`criarAgendamento`). Preserve nomes técnicos obrigatórios de bibliotecas, protocolos e APIs externas. Mantenha módulos pequenos e próximos do domínio a que pertencem.
+Use `kebab-case` em arquivos e diretórios (`create-booking.ts`), `PascalCase` em classes e tipos (`Booking`) e `camelCase` em funções, métodos e variáveis (`createBooking`). Preserve nomes técnicos obrigatórios de bibliotecas, protocolos e APIs externas. Mantenha módulos pequenos e próximos do domínio a que pertencem.
+
+## Regras de negócio
+
+Nomeie regras de negócio em inglês, com métodos declarativos que expressem claramente a invariante ou política correspondente ao arquivo `Requisitos/02-dominio-regras-negocio.md`. Nesta etapa, apenas declare e organize os nomes dessas regras; mantenha seus corpos vazios e não implemente seu comportamento.
 
 ## Testes
 
-Inclua testes para toda alteração de comportamento. Espelhe os caminhos de produção em `tests/` e use nomes descritivos em português, como `tests/agendamentos/criar-agendamento.test.ts`. Cubra fluxos esperados, falhas de validação e casos de borda. Execute testes e lint antes de abrir uma pull request; defina metas de cobertura quando a ferramenta de testes for escolhida.
+Não crie nem implemente testes automatizados nesta etapa; essa implementação será feita pelo mantenedor do projeto. Preserve os testes existentes sem adicionar novos casos. Quando a implementação de testes for autorizada, espelhe os caminhos de produção e use nomes descritivos em inglês.
 
 ## Commits e pull requests
 

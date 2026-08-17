@@ -1,0 +1,30 @@
+- Usuário
+- Credencial do Usuário
+- Sessão do Usuário
+- Dispositivo do Usuário
+- Espaço de Trabalho
+- Membro do Espaço de Trabalho
+- Calendário
+- Membro do Calendário
+- Evento
+- Participante do Evento
+- Convite para Evento
+- Regra de Recorrência do Evento
+- Exceção de Ocorrência do Evento
+- Configuração de Disponibilidade
+- Intervalo Semanal de Disponibilidade
+- Exceção de Disponibilidade por Data
+- Tipo de Agendamento
+- Página Pública de Agendamento
+- Campo do Formulário de Agendamento
+- Resposta do Formulário de Agendamento
+- Bloqueio Temporário de Horário
+- Reserva de Agendamento Público
+- Notificação
+- Lembrete de Evento
+- Preferência de Notificação
+- Modelo de Notificação
+- Tentativa de Entrega de Notificação
+- Conexão com Provedor de Comunicação
+- Mensagem do Provedor de Comunicação
+- Registro de Auditoria
